@@ -9,6 +9,7 @@ Here is all of my linux c code .
    学习日志
    
    1.13（周一）
+   
     安装ubutun，熟悉系统使用
     
     熟悉vim基本使用方式：http://chloerei.com/2013/05/10/how-to-learn-vim/
@@ -19,6 +20,7 @@ Here is all of my linux c code .
     
     
    1.14（周二）
+   
     熟悉ubutun下c语言编译，运行方式（gcc），调试（gdb）
     
     编写helloworld！并push到github
@@ -34,6 +36,7 @@ Here is all of my linux c code .
  使用教材：Linux C编程一站式学习 http://book.douban.com/subject/4141733/
    
    1.15(周三)
+   
     程序的基本概念
      
       打开gcc的-Wall选项,gcc会提示所有的警告信息
@@ -64,6 +67,7 @@ Here is all of my linux c code .
       1.函数的返回值不是左值，或者说函数调用表达式不能做左值
     
    1.16(周四)
+   
     循环语句
       
       1.for (控制表达式1; 控制表达式2; 控制表达式3) 语句
@@ -80,9 +84,7 @@ Here is all of my linux c code .
     
     结构体
     
-    1.有些时候结构体或数组中只有某一个或某几个成员需要初始化，其它成员都用0初始化即可，用Designated Initializer语法可以针对每个成员做初始化（Memberwise Initialization），很方便。例如：
-   struct complex_struct z1 = { .y = 4.0 }; /* z1.x=0.0, z1.y=4.0 */
-   
+    1.有些时候结构体或数组中只有某一个或某几个成员需要初始化，其它成员都用0初始化即可，用Designated Initializer语法可以针对每个成员做初始化（Memberwise Initialization），很方便。例如：struct complex_struct z1 = { .y = 4.0 }; /* z1.x=0.0, z1.y=4.0 */
     
     数组
     
@@ -105,6 +107,7 @@ Here is all of my linux c code .
     -kr选项表示K&R风格，-i8表示缩进8个空格的长度。如果没有指定-nut选项，则每8个缩进空格会自动用一个Tab代替。
     
    1.17(周五)
+   
     gdb
     
     排序与查找
